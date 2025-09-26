@@ -8,7 +8,9 @@ const Hero = () => {
   };
 
   const handleEmailClick = () => {
-    window.location.href = "mailto:estherndiwa@gmail.com";
+    const subject = "PureCare Beauty & Wellness Inquiry";
+    const body = "Hello! I'm interested in your health products. Please send me more information.";
+    window.open(`https://mail.google.com/mail/u/0/?view=cm&fs=1&to=shellyma08@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, "_blank");
   };
 
   return (
@@ -25,10 +27,10 @@ const Hero = () => {
           {/* Content */}
           <div className="flex-1 text-center lg:text-left animate-fade-in">
             <h1 className="text-5xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-              Esther <span className="text-accent">Ndiwa</span>
+              PureCare <span className="text-accent">Beauty and Wellness</span>
             </h1>
             <h2 className="text-2xl lg:text-3xl font-semibold text-primary-foreground/90 mb-8">
-              Your Trusted Health & Wellness Partner
+              Pure solutions for a healthier life
             </h2>
             <p className="text-lg lg:text-xl text-primary-foreground/80 mb-10 max-w-2xl leading-relaxed">
               Discover premium health supplements designed to enhance your well-being. 
@@ -45,12 +47,12 @@ const Hero = () => {
                 WhatsApp Me
               </Button>
               <Button 
-  onClick={handleEmailClick}
-  className="bg-primary-foreground/20 backdrop-blur-sm border border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/30 font-semibold px-8 py-6 text-lg hover:scale-105 transition-all duration-300 shadow-md"
->
-  <Mail className="mr-2 h-5 w-5" />
-  Email Me
-</Button>
+                onClick={handleEmailClick}
+                className="bg-primary-foreground/20 backdrop-blur-sm border border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/30 font-semibold px-8 py-6 text-lg hover:scale-105 transition-all duration-300 shadow-md"
+              >
+                <Mail className="mr-2 h-5 w-5" />
+                Email Me
+              </Button>
             </div>
           </div>
 
