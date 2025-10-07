@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="text-center md:text-left">
-            <h3 className="text-2xl font-bold text-primary mb-4">Esther Ndiwa</h3>
+            <h3 className="text-2xl font-bold text-primary mb-4">PureCare Beauty</h3>
             <p className="text-muted-foreground leading-relaxed">
               Your trusted partner in health and wellness. Providing premium supplements 
               for a healthier, more vibrant life.
@@ -51,7 +51,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center justify-center md:justify-end">
                 <Mail className="h-4 w-4 text-primary mr-2" />
-                <span className="text-muted-foreground">estherndiwa@gmail.com</span>
+                <span className="text-muted-foreground">shellyma08@gmail.com</span>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ const Footer = () => {
 
         <div className="border-t border-border/50 mt-8 pt-8 text-center">
           <p className="text-muted-foreground flex items-center justify-center gap-2">
-            © {currentYear} Esther Ndiwa. Made with <Heart className="h-4 w-4 text-accent fill-current" /> for your wellness journey.
+            © {currentYear} PureCare Beauty. Made with <Heart className="h-4 w-4 text-accent fill-current" /> for your wellness journey.
           </p>
         </div>
       </div>
