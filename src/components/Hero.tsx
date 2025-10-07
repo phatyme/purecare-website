@@ -34,7 +34,7 @@ const Hero = () => {
             </h2>
             <p className="text-lg lg:text-xl text-primary-foreground/80 mb-10 max-w-2xl leading-relaxed">
               Discover premium health supplements designed to enhance your well-being. 
-              From anti-aging solutions to immunity boosters, I provide authentic products 
+              From anti-aging solutions to immunity boosters, We provide authentic products 
               that help you live your healthiest life.
             </p>
             
