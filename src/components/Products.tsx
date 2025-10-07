@@ -51,13 +51,19 @@ const products = [
   },
   {
     id: 6,
-    name: "Black T-shirt",
-    image: Black
+  name: "Black T-shirt",
+  description: "Stylish unisex black T-shirt with VR branding.",
+  image: Black,
+  category: "Merchandise",
+  benefits: ["Soft Cotton", "Comfort Fit", "Durable Print"]
   },
   {
     id: 7,
-    name: "White T-shirt",
-    image: White
+  name: "White T-shirt",
+  description: "Classic white T-shirt with a clean, minimal design.",
+  image: White,
+  category: "Merchandise",
+  benefits: ["Lightweight", "Breathable", "Perfect for Summer"]
   }
 ];
 
@@ -83,11 +89,11 @@ const Products = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="relative overflow-hidden">
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
+                   <img
+                      src={product.image}
+                      alt={product.name}
+                      className="w-full h-auto max-h-64 object-contain group-hover:scale-105 transition-transform duration-500 bg-white"
+                    />                
                 <div className="absolute top-4 left-4">
                   <Badge className="bg-primary text-primary-foreground font-semibold">
                     {product.category}
