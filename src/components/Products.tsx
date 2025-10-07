@@ -5,6 +5,8 @@ import Product2 from "@/assets/Product2.jpeg";
 import Product3 from "@/assets/Product3.jpeg";
 import Product4 from "@/assets/Product4.jpeg";
 import Product5 from "@/assets/Product5.jpeg";
+import Black from "@/assets/Black.jpg";
+import White from "@/assets/White.jpg";
 
 const products = [
   {
@@ -46,6 +48,16 @@ const products = [
     image: Product5,
     category: "Premium",
     benefits: ["Boost Collagen", "Fight Aging", "Restore Glow", "Strengthen Immunity", "Cell Renewal"]
+  },
+  {
+    id: 6,
+    name: "Black T-shirt",
+    image: Black
+  },
+  {
+    id: 7,
+    name: "White T-shirt",
+    image: White
   }
 ];
 
